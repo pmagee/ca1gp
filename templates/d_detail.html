@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>Detail</title>
+</head>
+<body>
+    <h1>Doctor Details Page</h1>
+    <p>Name: {{ doctor.name }}</p>
+    <p>Number Patients: {{ doctor.num_patients }}</p>
+
+    <p><a href="{% url 'd_edit' doctor.pk %}">+ Edit Doctor Record</a></p>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Q1</title>
+    </head>
+    <body>
+        <h1>Oldest Patient</h1>
+
+        {% if error_message %}
+            <p style="color: red;">{{ error_message }}</p>
+        {% else %}
+            {% if patient_name %}
+                <p>The oldest patient is <strong>{{ patient_name }}</strong></p>
+            {% else %}
+                <p>No data available.</p>
+            {% endif %}
+        {% endif %}
+    </body>
+</html>
+

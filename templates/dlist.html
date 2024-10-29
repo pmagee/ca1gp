@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>List</title>
+</head>
+<body>
+    <h1>Doctors List Page</h1>
+    {% for d in all_ds_list %}
+    <h3><a href="{% url 'd_detail' d.pk %}">{{ d.name }}</a></h3>
+    {% endfor %}
+
+    <h2><a href="{% url 'd_new' %}">+New Doctor</a></h2>
+</body>
+</html>

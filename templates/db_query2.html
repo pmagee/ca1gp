@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Q2</title>
+    </head>
+    <body>
+        <h1>Number of Patients in {{name}} </h1>
+
+        {% if error_message %}
+            <p style="color: red;">{{ error_message }}</p>
+        {% else %}
+            {% if num_patients is not None %}
+                <p>Number of Patients: {{ num_patients }}</p>
+            {% else %}
+                <p>Riverside Clinic not found or no patients available.</p>
+            {% endif %}
+        {% endif %}
+    </body>
+</html>

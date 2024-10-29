@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>List</title>
+</head>
+<body>
+    <h2>Surgery & Doctor List</h2>
+    {% for s in all_s_list %}
+        <h3>{{ s.name }}</h3>
+        {% for d in s.doctor_set.all %}
+            <h4><li>{{ d.name }}</li></h4>
+        {% endfor %}
+    {% endfor %}
+</body>
+</html>

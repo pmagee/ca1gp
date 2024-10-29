@@ -1,0 +1,110 @@
+[
+    {
+        "model": "surgery_app.surgery",
+        "pk": 1,
+        "fields": {
+            "name": "Greenhill Medical Centre",
+            "location": "Dublin, Ireland",
+            "date_opened": "1998-05-15"
+        }
+    },
+    {
+        "model": "surgery_app.surgery",
+        "pk": 2,
+        "fields": {
+            "name": "Riverside Clinic",
+            "location": "Cork, Ireland",
+            "date_opened": "2005-09-10"
+        }
+    },
+    {
+        "model": "surgery_app.surgery",
+        "pk": 3,
+        "fields": {
+            "name": "Galway Family Practice",
+            "location": "Galway, Ireland",
+            "date_opened": "2010-03-22"
+        }
+    },
+    {
+        "model": "surgery_app.patient",
+        "pk": 1,
+        "fields": {
+            "name": "John O'Sullivan",
+            "dob": "1985-07-19",
+            "surgery": 1
+        }
+    },
+    {
+        "model": "surgery_app.patient",
+        "pk": 2,
+        "fields": {
+            "name": "Emily Walsh",
+            "dob": "1992-11-02",
+            "surgery": 2
+        }
+    },
+    {
+        "model": "surgery_app.patient",
+        "pk": 3,
+        "fields": {
+            "name": "Michael Byrne",
+            "dob": "2001-04-14",
+            "surgery": 3
+        }
+    },
+    {
+        "model": "surgery_app.patient",
+        "pk": 4,
+        "fields": {
+            "name": "Sinead Murphy",
+            "dob": "1978-08-23",
+            "surgery": 1
+        }
+    },
+    {
+        "model": "surgery_app.patient",
+        "pk": 5,
+        "fields": {
+            "name": "Liam Nolan",
+            "dob": "1989-12-30",
+            "surgery": 2
+        }
+    },
+    {
+        "model": "surgery_app.doctor",
+        "pk": 1,
+        "fields": {
+            "name": "Dr. Fiona Kearney",
+            "num_patients": 120,
+            "surgery": 1
+        }
+    },
+    {
+        "model": "surgery_app.doctor",
+        "pk": 2,
+        "fields": {
+            "name": "Dr. Aidan Murphy",
+            "num_patients": 95,
+            "surgery": 2
+        }
+    },
+    {
+        "model": "surgery_app.doctor",
+        "pk": 3,
+        "fields": {
+            "name": "Dr. Niamh Gallagher",
+            "num_patients": 85,
+            "surgery": 3
+        }
+    },
+    {
+        "model": "surgery_app.doctor",
+        "pk": 4,
+        "fields": {
+            "name": "Dr. Sean Brady",
+            "num_patients": 150,
+            "surgery": 1
+        }
+    }
+]
